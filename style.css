@@ -16,19 +16,16 @@ body{
     font-family: Roboto;
 }
 
-.studio{
+.logo{
 font-family: Raleway;
 font-size: 26px;
 font-style:normal;
 font-weight:700;
 letter-spacing:0.78px;
+color: var(--color-paragraph);
 }
 
-.header > a{
-    color: var(--color-paragraph);
-}
-
-span{
+.web{
 color: var(--color-text2);
 }
 
@@ -54,7 +51,7 @@ letter-spacing: 0.28px;
     color: var(--color-text2);
 }
 
-.first-section{
+.hero{
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
@@ -92,14 +89,14 @@ p{
     color: var(--color-text);
 }
 
-.text-item h3{
+.feature-item h3{
 font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 
-.text-item p{
+.feature-item p{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
@@ -132,7 +129,7 @@ flex-shrink: 0;
 background: #2F303A;
 }
 
-.footer > a {
+.footer .logo{
     color: #FFFFFF;
 }
 
