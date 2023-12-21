@@ -80,7 +80,6 @@ body {
 .hero-item {
   color: #ffffff;
   display: inline;
-  padding: 200px;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -94,7 +93,6 @@ body {
   display: block;
   width: 216px;
   height: 50px;
-  margin: 0 auto;
   margin-top: 30px;
   font-size: 16px;
   font-weight: 700;
@@ -106,14 +104,8 @@ body {
 }
 
 .photo-item {
-  display: inline;
   width: 370px;
   height: 294px;
-  margin-right: 30px;
-}
-
-.photo-item:first-child {
-  margin-left: 215px;
 }
 
 .feature-item h3 {
@@ -133,7 +125,6 @@ body {
 }
 
 .item-photo {
-  text-align: center;
   font-size: 36px;
   letter-spacing: 1.08px;
 }
