@@ -48,14 +48,44 @@ body {
   color: var(--color-text2);
 }
 
-.header-nav-list a {
+.header {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+}
+
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-list a {
   color: var(--color-paragraph);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
 
-.header-nav-item:hover a {
+.nav-item:hover a {
   color: var(--color-text2);
 }
 
@@ -72,9 +102,7 @@ body {
 
 .hero {
   background-color: #2f303a;
-  width: 1600px;
   height: 600px;
-  flex-shrink: 0;
 }
 
 .hero-item {
@@ -88,7 +116,7 @@ body {
   text-transform: uppercase;
 }
 
-.button {
+.hero-button {
   color: #fff;
   display: block;
   width: 216px;
@@ -103,12 +131,13 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.photo-item {
-  width: 370px;
-  height: 294px;
+.photo-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
 }
 
-.feature-item h3 {
+.feature-title {
   color: var(--color-paragraph);
   font-size: 14px;
   font-weight: 700;
@@ -116,7 +145,7 @@ body {
   text-transform: uppercase;
 }
 
-.feature-item p {
+.feature-text {
   color: var(--color-text);
   font-size: 14px;
   font-weight: 400;
@@ -133,13 +162,13 @@ body {
   background-color: #f5f4fa;
 }
 
-.ourteam-item h3 {
+.ourteam-title {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
 }
 
-.ourteam-item p {
+.ourteam-text {
   color: var(--color-text);
   font-size: 16px;
   font-weight: 400;
@@ -147,9 +176,7 @@ body {
 }
 
 .footer {
-  width: 1600px;
   height: 252px;
-  flex-shrink: 0;
   background: #2f303a;
 }
 
