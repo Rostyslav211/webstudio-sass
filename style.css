@@ -102,27 +102,30 @@ body {
 
 .hero {
   background-color: #2f303a;
+  padding: 200px 30px;
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero-item {
+.hero-title {
   color: #ffffff;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px; /* 136.364% */
+  line-height: 136.3px; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
 
 .hero-button {
   color: #fff;
-  display: inline;
-  width: 216px;
-  height: 50px;
+  text-align: center;
+  padding: 10px 32px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px; /* 187.5% */
+  line-height: 1.87; /* 187.5% */
   letter-spacing: 0.96px;
   border-radius: 4px;
   background: #2196f3;
@@ -251,7 +254,6 @@ body {
 
 .app-item a {
   flex-shrink: 0;
-  border-radius: 4px;
   background: #f5f4fa;
 }
 
