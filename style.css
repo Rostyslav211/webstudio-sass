@@ -101,6 +101,7 @@ body {
 
 .hero {
   background-color: #2f303a;
+  background-image: url(./img/before/Img16.jpg);
   padding: 200px 30px;
   height: 600px;
   display: flex;
