@@ -112,12 +112,13 @@ body {
 
 .hero-title {
   color: #ffffff;
+  width: 696px;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 136.3px; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -133,6 +134,7 @@ body {
 }
 
 .feature {
+  display: flex;
   margin-bottom: 118px;
 }
 
@@ -146,16 +148,40 @@ body {
 
 .feature-list {
   display: flex;
+  gap: 30px;
 }
 
+.feature-div {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  background-position: center;
+}
+.feature-antena {
+  background-image: url();
+}
+.feature-clock {
+  background-image: url();
+}
 .feature-text {
-  color: var(--color-text);
+  height: 72px;
+  color: #757575;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 171%;
   letter-spacing: 0.42px;
 }
 
+.feature-diagram {
+  background-image: url();
+}
+
+.feature-astronaut {
+  background-image: url();
+}
 .photo {
   margin-bottom: 94px;
 }
@@ -178,6 +204,7 @@ body {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 .ourteam-main-title {
@@ -226,6 +253,26 @@ img {
   font-weight: 400;
   letter-spacing: 0.48px;
   text-align: center;
+  margin-bottom: 28px;
+}
+
+.ourteam-svg-list {
+  display: flex;
+  gap: 34px;
+  margin-left: 44px;
+}
+
+.icon {
+  fill: #afb1b8;
+}
+
+.popular-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 
 .footer {
@@ -233,8 +280,25 @@ img {
   background: #2f303a;
 }
 
+.div-box {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .footer .logo {
   color: #ffffff;
+}
+
+.div-link {
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 .footer-address {
@@ -243,7 +307,6 @@ img {
   font-style: normal;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
-  margin-bottom: 9px;
 }
 
 .footer-item a {
