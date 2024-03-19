@@ -99,6 +99,14 @@ body {
   color: var(--color-text2);
 }
 
+.header-item:hover .envelope {
+  fill: #2196f3;
+}
+
+.header-item:hover .svg-phone {
+  fill: #2196f3;
+}
+
 .hero {
   background-color: #2f303a;
   background-image: url(./img/before/Img16.jpg);
@@ -166,11 +174,9 @@ body {
   background-repeat: no-repeat;
   margin-bottom: 30px;
   background-position: center;
-}
-.feature-antena {
-}
-.feature-clock {
-  background-image: url();
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .feature-text {
   height: 72px;
@@ -181,13 +187,6 @@ body {
   letter-spacing: 0.42px;
 }
 
-.feature-diagram {
-  background-image: url();
-}
-
-.feature-astronaut {
-  background-image: url();
-}
 .photo {
   margin-bottom: 94px;
 }
@@ -291,6 +290,10 @@ body {
   fill: #afb1b8;
 }
 
+.popular-svg {
+  fill: #afb1b8;
+}
+
 .popular {
   margin-bottom: 54px;
 }
@@ -320,10 +323,10 @@ body {
 }
 
 .popular-item:hover {
-  border: 1px solid #2196f3;
+  border-color: #2196f3;
 }
 
-.popular-item:hover > {
+.popular-item:hover .popular-svg {
   fill: #2196f3;
 }
 .footer {
@@ -346,6 +349,10 @@ body {
   margin-bottom: 20px;
 }
 
+.footer-icon {
+  fill: #ffffff;
+}
+
 .footer-list {
   display: flex;
   flex-direction: column;
@@ -366,6 +373,28 @@ body {
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
+
+.main-box {
+  display: flex;
+  gap: 70px;
+}
+
+.join-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-top: 72px;
+  margin-bottom: 32px;
+}
+
+.footer-svg-list {
+  display: flex;
+  gap: 34px;
+}
+
 /*=========portfolio========= */
 .app {
   margin-top: 94px;
@@ -388,11 +417,17 @@ body {
 .app-item a {
   flex-shrink: 0;
   background: #f5f4fa;
+  border-radius: 4px;
+  border: 1px solid #f5f4fa;
+  padding: 6px 22px;
 }
 
 .app-item:hover a {
   border-radius: 4px;
   background: #2196f3;
+  border: 1px solid #f5f4fa;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 
   /* shadow-middle */
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -418,6 +453,10 @@ body {
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
+.portfolio-img {
+  margin-bottom: 20px;
+}
+
 .portfolio-title {
   font-size: 18px;
   line-height: 36px; /* 200% */
@@ -430,4 +469,5 @@ body {
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
   text-align: center;
+  margin-bottom: 20px;
 }
