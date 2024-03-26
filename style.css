@@ -141,6 +141,144 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+  padding: 15px;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+  padding-left: 41px;
+  padding-right: 39px;
+}
+
+.btn-close {
+  width: 30px;
+  height: 30px;
+  border-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.icon-cancel {
+  fill: #212121;
+}
+
+.icon-cancel:hover {
+  fill: #2196f3;
+}
+
+.modal-title {
+  color: #212121;
+  margin: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+}
+
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+}
+
+.input-hero {
+  padding-left: 20px;
+  width: 448px;
+  height: 40px;
+}
+.input-svg {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+}
+
+.form-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea-hero {
+  resize: none;
+}
+
+.checkbox-box {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 30px;
+}
+
+.text-modal {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.link-modal {
+  color: #2196f3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-decoration-line: underline;
+}
+
+.submit-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
+.submit-btn {
+  color: #fff;
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87; /* 187.5% */
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 .feature {
   display: flex;
   margin-bottom: 118px;
@@ -282,12 +420,28 @@ body {
 
 .ourteam-svg-list {
   display: flex;
-  gap: 34px;
-  margin-left: 44px;
+
+  justify-content: space-around;
+}
+
+.ourteam-svg-item {
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.ourteam-svg-item:hover {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .icon {
   fill: #afb1b8;
+  display: flex;
+  align-items: center;
+}
+
+.ourteam-svg-item:hover .icon {
+  fill: #ffffff;
 }
 
 .popular-svg {
@@ -351,6 +505,8 @@ body {
 
 .footer-icon {
   fill: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .footer-list {
@@ -379,6 +535,11 @@ body {
   gap: 70px;
 }
 
+.footer-svg-list {
+  display: flex;
+  gap: 10px;
+}
+
 .join-text {
   color: #fff;
   font-size: 14px;
@@ -390,9 +551,65 @@ body {
   margin-bottom: 32px;
 }
 
-.footer-svg-list {
+.footer-svg-item {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+}
+
+.footer-svg-item:hover {
+  background-color: #2196f3;
+}
+
+.box-join {
   display: flex;
-  gap: 34px;
+  flex-direction: column;
+}
+.footer-join {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-top: 72px;
+  margin-bottom: 20px;
+}
+
+.footer-input {
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 358px;
+  height: 50px;
+}
+
+.form-box {
+  display: flex;
+  gap: 12px;
+}
+.footer-button {
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 28px;
+}
+
+.send-icon {
+  fill: #ffffff;
+  margin-left: 10px;
 }
 
 /*=========portfolio========= */
