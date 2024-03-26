@@ -75,7 +75,12 @@
                   <svg class="input-svg" width="12" height="12">
                     <use href="./img/symbol-defs.svg#icon-person"></use>
                   </svg>
-                  <input class="input-hero" type="name" />
+                  <input
+                    class="input-hero"
+                    type="text"
+                    autofocus
+                    name="username"
+                  />
                 </div>
               </label>
               <label>
@@ -84,7 +89,7 @@
                   <svg class="input-svg" width="13" height="13">
                     <use href="./img/symbol-defs.svg#icon-phone"></use>
                   </svg>
-                  <input class="input-hero" type="tel" />
+                  <input class="input-hero" type="tel" name="phone" />
                 </div>
               </label>
               <label>
@@ -93,7 +98,7 @@
                   <svg class="input-svg" width="15" height="12">
                     <use href="./img/symbol-defs.svg#icon-mail"></use>
                   </svg>
-                  <input class="input-hero" type="email" />
+                  <input class="input-hero" type="email" name="email" />
                 </div>
               </label>
               <label class="form-textarea">
@@ -105,8 +110,7 @@
                   placeholder="Введіть текст"
                 ></textarea>
               </label>
-            </form>
-            <div class="checkbox-box">
+               <div class="checkbox-box">
               <input type="checkbox" />
               <p class="text-modal">
                 Погоджуюся з розсилкою та приймаю
@@ -117,6 +121,8 @@
               <button type="submit" class="submit-btn">Відправити</button>
             </div>
           </div>
+            </form>
+           
         </div>
       </section>
 
