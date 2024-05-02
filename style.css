@@ -42,6 +42,10 @@ body {
   margin-left: auto;
 }
 
+.web {
+  color: var(--color-text2);
+}
+
 .logo {
   font-family: Raleway;
   font-size: 26px;
@@ -49,10 +53,6 @@ body {
   font-weight: 700;
   letter-spacing: 0.78px;
   color: var(--color-paragraph);
-}
-
-.web {
-  color: var(--color-text2);
 }
 
 .header {
@@ -92,6 +92,8 @@ body {
 
 .nav-item:hover a {
   color: var(--color-text2);
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list a {
@@ -101,8 +103,16 @@ body {
   letter-spacing: 0.28px;
 }
 
+.header-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .header-item:hover a {
   color: var(--color-text2);
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active {
@@ -133,10 +143,14 @@ body {
 
 .header-item:hover .envelope {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item:hover .svg-phone {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
@@ -223,6 +237,8 @@ body {
 
 .icon-cancel:hover {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
@@ -435,6 +451,8 @@ body {
 .ourteam-item:hover {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ourteam-title {
@@ -468,6 +486,8 @@ body {
 .ourteam-svg-item:hover {
   background-color: #2196f3;
   fill: #ffffff;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
@@ -478,6 +498,8 @@ body {
 
 .ourteam-svg-item:hover .icon {
   fill: #ffffff;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .popular-svg {
@@ -514,10 +536,14 @@ body {
 
 .popular-item:hover {
   border-color: #2196f3;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .popular-item:hover .popular-svg {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer {
   height: 252px;
@@ -595,6 +621,8 @@ body {
 
 .footer-svg-item:hover {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-join {
@@ -691,6 +719,8 @@ body {
   /* shadow-middle */
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list {
@@ -710,6 +740,8 @@ body {
 .portfolio-item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .animation-box {
