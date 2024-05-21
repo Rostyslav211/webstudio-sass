@@ -1,31 +1,28 @@
 .feature {
-    display: flex;
-    margin-bottom: 118px;
-}
+  display: flex;
+  margin-bottom: 118px;
 
-.feature-title {
+  &-title {
     color: var(--color-paragraph);
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 10px;
-}
-
-.feature-list {
+  }
+  &-list {
     display: flex;
     gap: 30px;
-}
+  }
 
-.feature-antena {
+  &-antena {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 25px 100px;
     margin: 0 auto;
-}
-
-.feature-div {
+  }
+  &-div {
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -36,13 +33,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.feature-text {
+  &-text {
     height: 72px;
-    color: #757575;
+    color: $color-text;
     font-size: 14px;
     font-weight: 400;
     line-height: 171%;
     letter-spacing: 0.42px;
+  }
 }

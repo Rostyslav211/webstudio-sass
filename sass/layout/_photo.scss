@@ -1,26 +1,21 @@
 .photo {
-    margin-bottom: 94px;
-}
-
-.title-photo {
+  margin-bottom: 94px;
+  &-photo {
     display: block;
     text-align: center;
     font-size: 36px;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
-}
-
-.photo-list {
+  }
+  &-list {
     display: flex;
     justify-content: center;
     column-gap: 30px;
-}
-
-.photo-item {
+  }
+  &-item {
     position: relative;
-}
-
-.photo-text {
+  }
+  &-text {
     color: #fff;
     text-align: center;
     font-size: 14px;
@@ -33,4 +28,5 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+  }
 }
