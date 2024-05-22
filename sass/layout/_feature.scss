@@ -4,6 +4,7 @@
 
   &-title {
     color: var(--color-paragraph);
+    @extend %body;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.42px;
@@ -36,6 +37,7 @@
   }
 
   &-text {
+    @extend %body;
     height: 72px;
     color: $color-text;
     font-size: 14px;

@@ -12,6 +12,7 @@
     gap: 9px;
   }
   &-address {
+    @extend %body;
     color: #fff;
     font-size: 14px;
     font-style: normal;
@@ -20,6 +21,7 @@
     letter-spacing: 0.42px;
   }
   &-item a {
+    @extend %body;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 24px;
@@ -36,11 +38,13 @@
     padding: 12px;
   }
   .footer-svg-item:hover {
+    @extend %body;
     background-color: $color-text2;
     transition-duration: 250ms;
     transform: cubic-bezier(0.4, 0, 0.2, 1);
   }
   &-join {
+    @extend %body;
     color: #fff;
     font-size: 14px;
     font-style: normal;
@@ -67,6 +71,7 @@
     padding: 15px;
   }
   &-button {
+    @extend %body;
     border-radius: 4px;
     background: $color-text2;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -106,6 +111,7 @@
 }
 
 .join-text {
+  @extend %body;
   color: #fff;
   font-size: 14px;
   font-weight: 700;

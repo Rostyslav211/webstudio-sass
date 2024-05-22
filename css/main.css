@@ -32,7 +32,7 @@ ul {
   margin-left: auto;
 }
 
-body {
+.join-text, .footer-button, .footer-join, .footer .footer-svg-item:hover, .footer-item a, .footer-address, .portfolio-text, .portfolio-title, .overlay .animation-text, .app-item:hover a, .app-item a, .app-item > a, .popular-title, .ourteam-text, .ourteam-title, .ourteam-main-title, .photo-text, .feature-text, .feature-title, .submit-btn, .link-modal, .text-modal, .hero-form, .modal-title, .hero-button, .hero-title, .hero, .nav-item:hover a, .nav-list a, .header-item:hover a, .header-list a, .header, .logo, .web {
   color: var(--color-paragraph);
   font-family: Roboto;
 }

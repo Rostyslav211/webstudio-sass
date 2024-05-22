@@ -7,6 +7,7 @@
     margin-bottom: 50px;
   }
   &-item > a {
+    @extend %body;
     color: $color-paragraph;
     font-weight: 500;
     line-height: 26px;
@@ -14,6 +15,7 @@
     letter-spacing: 0.48px;
   }
   &-item a {
+    @extend %body;
     flex-shrink: 0;
     background: #f5f4fa;
     border-radius: 4px;
@@ -23,6 +25,7 @@
 }
 
 .app-item:hover a {
+  @extend %body;
   border-radius: 4px;
   background: $color-text2;
   border: 1px solid #f5f4fa;
@@ -82,6 +85,7 @@
 }
 
 .overlay .animation-text {
+  @extend %body;
   color: #fff;
   width: 322px;
   padding: 63px 24px;
@@ -97,6 +101,7 @@
 }
 
 .portfolio-title {
+  @extend %body;
   font-size: 18px;
   line-height: 36px;
   /* 200% */
@@ -106,6 +111,7 @@
 }
 
 .portfolio-text {
+  @extend %body;
   color: $color-text;
   line-height: 30px;
   /* 187.5% */

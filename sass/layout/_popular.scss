@@ -5,6 +5,7 @@
 .popular {
   margin-bottom: 54px;
   &-title {
+    @extend %body;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
