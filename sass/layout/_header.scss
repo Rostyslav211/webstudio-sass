@@ -64,17 +64,18 @@
 .nav-list {
   display: flex;
   gap: 50px;
-  &-list a {
-    color: $color-paragraph;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-  }
-  .nav-item:hover a {
-    color: $color-text2;
-    transition-duration: 250ms;
-    transform: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
+.nav-list a {
+  color: $color-paragraph;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.nav-item:hover a {
+  color: $color-text2;
+  transition-duration: 250ms;
+  transform: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active {

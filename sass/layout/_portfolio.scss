@@ -43,11 +43,12 @@
   justify-content: space-evenly;
   gap: 15px;
   margin-bottom: 94px;
-  &-item {
-    flex-basis: calc((100% - 3 * 30px) / 3);
-    border: 1px solid #eee;
-    background: #fff;
-  }
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  border: 1px solid #eee;
+  background: #fff;
 }
 
 .portfolio-item:hover {
@@ -101,12 +102,14 @@
   /* 200% */
   letter-spacing: 1.08px;
   text-align: center;
-  &-text {
-    color: $color-text;
-    line-height: 30px;
-    /* 187.5% */
-    letter-spacing: 0.48px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+  margin-top: 20px;
+}
+
+.portfolio-text {
+  color: $color-text;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.48px;
+  text-align: center;
+  margin-bottom: 20px;
 }

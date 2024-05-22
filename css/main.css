@@ -102,13 +102,15 @@ body {
   display: flex;
   gap: 50px;
 }
-.nav-list-list a {
+
+.nav-list a {
   color: #212121;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-.nav-list .nav-item:hover a {
+
+.nav-item:hover a {
   color: #2196F3;
   transition-duration: 250ms;
   transform: cubic-bezier(0.4, 0, 0.2, 1);
@@ -445,7 +447,8 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
-.ourteam-title-text {
+
+.ourteam-text {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
@@ -566,7 +569,8 @@ body {
   gap: 15px;
   margin-bottom: 94px;
 }
-.portfolio-list-item {
+
+.portfolio-item {
   flex-basis: calc((100% - 90px) / 3);
   border: 1px solid #eee;
   background: #fff;
@@ -622,8 +626,10 @@ body {
   /* 200% */
   letter-spacing: 1.08px;
   text-align: center;
+  margin-top: 20px;
 }
-.portfolio-title-text {
+
+.portfolio-text {
   color: #757575;
   line-height: 30px;
   /* 187.5% */
