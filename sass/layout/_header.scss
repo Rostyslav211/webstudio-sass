@@ -1,10 +1,8 @@
 .web {
-  @extend %body;
   color: $color-text2;
 }
 
 .logo {
-  @extend %body;
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -14,7 +12,6 @@
 }
 
 .header {
-  @extend %body;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -35,14 +32,12 @@
     gap: 10px;
   }
   &-list a {
-    @extend %body;
     color: $color-text;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
   }
   &-item:hover a {
-    @extend %body;
     color: $color-text2;
     transition-duration: 250ms;
     transform: cubic-bezier(0.4, 0, 0.2, 1);
@@ -71,7 +66,6 @@
   gap: 50px;
 }
 .nav-list a {
-  @extend %body;
   color: $color-paragraph;
   font-size: 14px;
   font-weight: 500;
@@ -79,7 +73,6 @@
 }
 
 .nav-item:hover a {
-  @extend %body;
   color: $color-text2;
   transition-duration: 250ms;
   transform: cubic-bezier(0.4, 0, 0.2, 1);
@@ -109,4 +102,20 @@
   transform: scaleX(0);
   width: 10%;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+  .header-list {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-list {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
 }
