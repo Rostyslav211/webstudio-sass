@@ -25,9 +25,9 @@
   &-list {
     display: flex;
     gap: 50px;
+    display: none;
   }
   &-item {
-    display: flex;
     align-items: center;
     gap: 10px;
   }
@@ -64,6 +64,7 @@
 .nav-list {
   display: flex;
   gap: 50px;
+  display: none;
 }
 .nav-list a {
   color: $color-paragraph;
@@ -111,11 +112,28 @@
     gap: 10px;
     flex-direction: column;
   }
+  .nav-list {
+    display: flex;
+    gap: 56px;
+    flex-direction: row;
+  }
+  .btn-open-menu {
+    display: none;
+  }
 }
 @media screen and (min-width: 1200px) {
   .header-list {
     display: flex;
     gap: 10px;
+    align-items: center;
     flex-direction: row;
+  }
+  .nav-list {
+    display: flex;
+    gap: 53px;
+    flex-direction: row;
+  }
+  .btn-open-menu {
+    display: none;
   }
 }
